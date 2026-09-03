@@ -1,26 +1,10 @@
+//   EEE Project Tool 5. 
+
 #include <stdio.h>
 
-void vdc();
+void vdc();  // Func prototype
 
-int main()
-{
-      int choice;
-      printf("5. Voltage Divider Calculator\n");
-
-      printf("\nEnter your choice: ");
-       scanf("%d", &choice);
-
-      switch (choice) {
-        case 5:
-             vdc();
-            break;
-          default:
-          printf("Invalid Input !");   
-      }     
-        return 0;
-}
- 
- void vdc(){
+void vdc(){
     float r1, r2, Vo, Vi;
     int cho;
      
