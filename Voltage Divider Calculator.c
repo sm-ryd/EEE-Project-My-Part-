@@ -1,7 +1,5 @@
 //   EEE Project Tool 5. 
 
-#include <stdio.h>
-
 void vdc();  // Func prototype
 
 void vdc(){
