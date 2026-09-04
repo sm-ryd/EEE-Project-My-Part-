@@ -1,27 +1,8 @@
-#include <stdio.h>
+//  EEE Project Tool 2
 
-void pcs();
+void pcs(); // Func Prototype
 
-int main()
-{
-      int choice;
-      printf("2. Parallel Circuit Solver\n");
-
-      printf("\nEnter your choice: ");
-       scanf("%d", &choice);
-
-      switch (choice) {
-        case 2:
-             pcs();
-            break;
-          default:
-          printf("Invalid Input !");   
-      }     
-        return 0;
-}
-
-
-  void pcs(){
+void pcs(){
    float v;
    int n;
     
