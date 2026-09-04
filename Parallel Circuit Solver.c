@@ -17,7 +17,8 @@ void pcs(){
         printf("Invalid resistors Input!\n");
          return ;
      }
-      float resis[n], rsum = 0.0;
+      float resis[n]; 
+      float rsum = 0.0;
 
       for(int i = 0; i < n; i++){
          printf("Enter the value of R%d (Ohms): ", i + 1);
